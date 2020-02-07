@@ -1,0 +1,11 @@
+{
+  "server_address" : "smtp.gmail.com",
+  "port" : 465,
+  "account" : "email@gmail.com",
+  "password" : "xxxxxxxxxxxxxxxxxxx",
+  "recipients" : [
+    {
+      "address" : "email@gmail.com"
+    }
+  ]
+}
