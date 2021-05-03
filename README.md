@@ -1,5 +1,5 @@
 # Dog Generator
-Source code of my semester project for the subject `redes neuronales artificiales` using different GANs to generate photo-realistic dog images.
+Source code of my semester project for the subject `redes neuronales artificiales`.
 
 ## Objective
 As a self chosen objective, I decided to explore generative models such as `DC-GAN` and `Wasserstein GANs` to generate photo-realistic dog images using modelling techniques as proposed by [[Radford2015](https://arxiv.org/pdf/1511.06434.pdf)] and [[Arjovsky2017](https://arxiv.org/pdf/1701.07875.pdf)].
@@ -13,7 +13,7 @@ Using the Wikipedia page on [dog breeds](https://en.wikipedia.org/wiki/List_of_d
 - Sample images from generated models.
 
 <p align="center">
-  Figure 1: Data acquisition and modelling pipeline.
+  Figure 1: Data acquisition and modelling pipeline.<br>
   <img src="figures/pipeline.png" width="500">
 </p>
 
@@ -22,7 +22,7 @@ Using the Wikipedia page on [dog breeds](https://en.wikipedia.org/wiki/List_of_d
 In `Figure 2` you may see samples from the obtained training dataset. The dataset was filtered using explicit heuristics to omit cartoon-like images as well as shots taken in a studio environment (white back-drop).
 
 <p align="center">
-  Figure 2: Samples from the acquired dataset.
+  Figure 2: Samples from the acquired dataset.<br>
   <img src="figures/dataset.png" width="500">
 </p>
 
@@ -31,7 +31,7 @@ In `Figure 2` you may see samples from the obtained training dataset. The datase
 The results are discussed in detail in my report, which is available in both, [English](https://github.com/chrismolli/dog_generator/blob/master/report/report_neural_networks_english.pdf) and [Spanish](https://github.com/chrismolli/dog_generator/blob/master/report/memoria_redes_neuronales_espanol.pdf). In `Figure 3` you may see samples from the trained `DCGAN` model after training. Further training resulted in mode collapse of the model.
 
 <p align="center">
-  Figure 3: Samples from the obtained DCGAN model.
+  Figure 3: Samples from the obtained DCGAN model.<br>
   <img src="figures/dcgan_samples.png" width="500">
 </p>
 
